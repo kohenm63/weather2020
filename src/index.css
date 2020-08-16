@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*The box-sizing CSS property sets how the total width and height of an element is calculated.*/
+}
+body{
+  font-family: 'Baloo Tamma 2', cursive;
+}
+.app{
+  background-image: url('./images/warm-bg.jpg');
+  background-size: cover;
+ 
+  background-position: bottom;
+  transition:all 0.4 ease-out ;
+  -webkit-transition:all 0.4 ease-out ;
+  -moz-transition:all 0.4 ease-out ;
+  -ms-transition:all 0.4 ease-out ;
+  -o-transition:all 0.4 ease-out ;
+}
+.app.hot{
+  background-image: url("./images/hot-bg.jpg");
+}
+main{
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom,rgba(241, 152, 152, 0.8),rgba(0,0,0,0.1) );
+padding: 25px;
+}
+.search-box {
+width: 100%;
+margin: 0 0 25px;
+
+}
+.search-box .search-bar{
+  display: block;
+  width: 100%;
+  padding: 15px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px 0px 16px 16px;
+  -webkit-border-radius: 0px 0px 16px 16px;
+  -moz-border-radius: 0px 0px 16px 16px;
+  -ms-border-radius: 0px 0px 16px 16px;
+  -o-border-radius: 0px 0px 16px 16px;
+  margin-top: -25px;
+  box-shadow:  0 5px rgba(0,0,0,0.1);
+  color: grey;
+  font-size: 20px;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+
+.location-box .location{
+  color:white;
+  font-size: 32px;
+  margin-top: 10px;
+  font-weight: 500;
+  text-align: center;
+
+}
+.location-box .date{
+  color:white;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+
+}
+.weather-box{
+  text-align: center;
+}
+.weather-box .temp{
+  color:white;
+  margin:30px auto;
+  font-size: 100px;
+  font-weight: 900;
+
+  position: relative;
+  display: inline-block;
+
+  background-color: rgb(255, 255, 255, 0.2);
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+
+  padding: 15px 25px;
+
+  text-align: center;
+  box-shadow:3px 6px rgb(0, 0, 0, 0.2);
+}
+.weather-box .humidity{
+  color: white;
+  font-size: 100px;
+  font-weight: 900;
+  text-shadow: rgb(50, 50, 70, 0.5);
+}
+.weather-box .wind{
+  color: white;
+  font-size: 80px;
+  font-weight: 700;
+  text-shadow: rgb(50, 50, 70, 0.5);
+}
+
+.weather-box .weather{
+  color: white;
+  font-size: 80px;
+  font-weight: 700;
+  text-shadow: rgb(50, 50, 70, 0.5);
+}

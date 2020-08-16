@@ -1,0 +1,14 @@
+https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/17038878#overview
+
+
+[x]  install node ls
+[x] node --version
+[x] sudo npm i nodemon
+[x] npm install dotenv
+    [] inside .env => API_Key=xxxxxxx 
+    []app.js => require('dotenv').config()
+    const api ={
+    key:"process.env.API_Key",
+    base:"http://api.openweathermap.org/data/2.5/"}
+[]    
+
