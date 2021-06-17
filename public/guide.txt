@@ -10,5 +10,17 @@ https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture
     const api ={
     key:"process.env.API_Key",
     base:"http://api.openweathermap.org/data/2.5/"}
-[]    
+
+
+
+------------------------------[issues fixed]------------------------------------------  
+
+<<<<<< Failed at the my-app@0.1.0 start script >>>>>>>
+[x]app package.json file :
+    "start": "react-scripts start" 
+        not 
+    "start": "node server.js"
+
+
+ [x]   
 
